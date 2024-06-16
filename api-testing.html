@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Testing | Jaykumar's Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+    <style>
+        .testing-box { padding: 2rem; margin-bottom: 2rem; border-radius: 0.7rem; color: black; }
+        .testing-box:nth-child(odd) { background-color: var(--color-tomato); }
+        .testing-box:nth-child(even) { background-color: var(--color-orange); }
+        /* New styles for bullet points */
+        .testing-box ul { list-style-type: disc; padding-left: 2rem; }
+        .testing-box li { margin-bottom: 0.5rem; }
+        .testing-box a { font-weight: var(--font-semi-bold); } /* Style for tool links */
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo"><a href="/">JR</a></h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="portfolio.html">Portfolio</a>
+                        <ul class="dropdown-content">
+                            <li><a href="manual-testing.html">Manual Testing</a></li>
+                            <li><a href="automation-testing.html">Automation Testing</a></li>
+                            <li><a href="api-testing.html">API Testing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="navigation-button"><i class="bi bi-list"></i></div>
+        </div>
+    </header>
+
+    <main class="portfolioSingle manual-testing"> 
+        <section class="section">
+            <div class="container">
+                <h2 class="portfolioSingle__title">API Testing on Formspree</h2>
+                <div class="portfolioSingle__content">
+                    <p>A detailed overview of the API testing I performed on the Formspree API to ensure the reliability of my contact form.</p>
+                </div>
+                <div class="testing-box">
+                    <h3>Functionality Testing</h3>
+                    <ul>
+                        <li>Tested valid form submissions to confirm successful processing and email delivery.</li>
+                        <li>Verified error handling for invalid data and server unavailability.</li>
+                    </ul>
+                    <div class="portfolio__img">
+                        <img src="assets/api-testing-functionality.jpg" alt="API Functionality Testing"> 
+                    </div>
+                    <a class="portfolio__link" href="https://www.postman.com/" target="_blank">Postman</a>
+                </div>
+
+                <div class="testing-box">
+                    <h3>Security Testing</h3>
+                    <ul>
+                        <li>Investigated Formspree's input validation to protect against XSS and SQL injection.</li>
+                        <li>Checked for rate limiting mechanisms to prevent abuse.</li>
+                    </ul>
+                    <div class="portfolio__img">
+                        <img src="assets/api-testing-security.jpg" alt="API Security Testing">
+                    </div>
+                </div>
+                <div class="testing-box">
+                    <h3>Performance Testing</h3>
+                    <ul>
+                        <li>Measured the time taken for the form to submit and for the success/error message to appear.</li>
+                        <li>Conducted basic load testing by submitting the form multiple times in quick succession to assess how it handles concurrent requests.</li>
+                    </ul>
+                    <div class="portfolio__img">
+                        <img src="assets/api-testing-performance.jpg" alt="API Performance Testing">
+                    </div>
+                    <a class="portfolio__link" href="https://www.webpagetest.org/" target="_blank">WebPageTest <i class="bi bi-arrow-right"></i></a> 
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p>All rights are received to Jaykumar Mathukiya <a href="/">Jaykumar</a></p>
+        </div>
+    </footer>
+    <script src="scripts/app.js"></script> 
+</body>
+</html>

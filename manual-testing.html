@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Testing | Jaykumar's Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+    <style>
+        .testing-box { padding: 2rem; margin-bottom: 2rem; border-radius: 0.7rem; color: black; }
+        .testing-box:nth-child(odd) { background-color: var(--color-tomato); }
+        .testing-box:nth-child(even) { background-color: var(--color-orange); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo"><a href="/">JR</a></h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="portfolio.html">Portfolio</a>
+                        <ul class="dropdown-content">
+                            <li><a href="manual-testing.html">Manual Testing</a></li>
+                            <li><a href="automation-testing.html">Automation Testing</a></li>
+                            <li><a href="api-testing.html">API Testing</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div id="navigation-button"><i class="bi bi-list"></i></div>
+        </div>
+    </header>
+
+    <main class="portfolioSingle manual-testing">
+        <section class="section">
+            <div class="container">
+                <h2 class="portfolioSingle__title">Manual Testing Overview</h2>
+                <div class="portfolioSingle__content">
+                    <p>A deep dive into the manual testing I conducted to ensure the quality and functionality of this portfolio website.</p>
+                </div>
+                
+                <div class="testing-box">
+                    <h3>1. Functional Testing</h3>
+                    <p>I meticulously tested all website features:</p>
+                    <ul>
+                        <li> -> Navigation menu links and their target pages.</li>
+                        <li> -> Buttons like the "Resume Download" button.</li>
+                        <li> -> Forms in the "Contact Me" section to ensure correct submission.</li>
+                        <li> -> Interactive elements like image carousels and modals.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>2. Usability Testing</h3>
+                    <p>I gathered feedback from friends and family on the website's ease of use:</p>
+                    <ul>
+                        <li> -> I asked them to complete tasks like finding my contact information and navigating to specific project pages.</li>
+                        <li> -> I observed their interactions and noted any points of confusion or difficulty.</li>
+                    </ul>
+                </div>
+            
+                <div class="testing-box">
+                    <h3>3. Compatibility Testing</h3>
+                    <p>I verified the website's performance across different browsers and devices:</p>
+                    <ul>
+                        <li> -> Tested on Chrome, Firefox, Safari, and Edge, ensuring layout and functionality remained consistent.</li>
+                        <li> -> Checked on both Windows and macOS operating systems.</li>
+                        <li> -> Used BrowserStack for broader browser and device compatibility testing.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>4. Navigation Testing</h3>
+                    <p>I focused on the site's navigation flow:</p>
+                    <ul>
+                        <li> -> Followed each link in the navigation menu to ensure it led to the correct page.</li>
+                        <li> -> Checked for broken links or incorrect redirects.</li>
+                        <li> -> Verified the mobile menu's functionality and responsiveness.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>5. Regression Testing</h3>
+                    <p>After making updates, I retested critical functionalities:</p>
+                    <ul>
+                        <li> -> Checked for new issues that may have been introduced by recent changes.</li>
+                        <li> -> Re-validated form submissions and page loading times.</li>
+                        <li> -> Reviewed any JavaScript interactions that might have been affected.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>6. Cross-Device Testing</h3>
+                    <p>I tested the website's responsiveness on various devices:</p>
+                    <ul>
+                        <li> -> Used my own collection of devices: desktop, laptop, tablet, and smartphone.</li>
+                        <li> -> Simulated different screen sizes using browser developer tools.</li>
+                        <li> -> Focused on elements like text resizing, image scaling, and touch interactions.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>7. Content Testing</h3>
+                    <p>I carefully reviewed all website content:</p>
+                    <ul>
+                        <li> -> Checked text for grammar, spelling, and clarity.</li>
+                        <li> -> Verified the accuracy of information in the "About Me" section.</li>
+                        <li> -> Ensured images and videos were loading correctly and displayed appropriately.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>8. Performance Testing</h3>
+                    <p>I used online tools to assess website performance:</p>
+                    <ul>
+                        <li> -> Google PageSpeed Insights and GTmetrix to analyze loading times and suggest optimizations.</li>
+                        <li> -> Checked for large image files that might slow down the site.</li>
+                        <li> -> Tested the website under simulated slow network conditions.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>9. Security Testing</h3>
+                    <p>While not a security expert, I took basic precautions:</p>
+                    <ul>
+                        <li> -> Ensured the contact form was protected against basic spam and bots.</li>
+                        <li> -> Verified that sensitive information was not exposed in the website's code.</li>
+                        <li> -> Considered using a web application firewall (WAF) in the future for enhanced security.</li>
+                    </ul>
+                </div>
+
+                <div class="testing-box">
+                    <h3>10. Localization Testing</h3>
+                    <p>Currently, my portfolio is in English, but I'm prepared for future localization:</p>
+                    <ul>
+                        <li> -> I've researched localization best practices and tools.</li>
+                        <li> -> If needed, I would translate content and adapt formats for specific regions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p>All rights are received to Jaykumar Mathukiya <a href="/">Jaykumar</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script> 
+</body>
+</html>

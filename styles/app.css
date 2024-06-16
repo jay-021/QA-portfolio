@@ -674,3 +674,108 @@ img {
     .portfolioSingle__content a {
       color: var(--color-accent);
       font-weight: var(--font-semi-bold); }
+/* Additional styles for manual-testing.html */
+.manual-testing .header__logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.manual-testing .section {
+  padding: 40px 0;
+}
+
+.manual-testing .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.manual-testing h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.manual-testing h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.manual-testing p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.manual-testing ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.manual-testing li {
+  margin-bottom: 10px;
+}
+
+/* Specific styles for UI Testing and Component Testing to make them vertical */
+.portfolio__box:nth-child(2), 
+.portfolio__box:nth-child(3) {
+    flex-direction: column; /* Change flex-direction to column */
+    padding: 2.5rem;      /* Add padding to all sides */
+}
+
+.portfolio__box:nth-child(2) .portfolio__img,
+.portfolio__box:nth-child(3) .portfolio__img {
+    height: auto;         /* Allow image to take its natural height */
+    padding: 0;
+}
+
+.portfolio__box:nth-child(2) .portfolio__img img,
+.portfolio__box:nth-child(3) .portfolio__img img {
+    height: auto;       /* Allow image to take its natural height */
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative; /* Necessary for positioning the dropdown content */
+}
+
+.dropdown-content {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  background-color: var(--color-transparent); /* Or any suitable background color */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: var(--color-light); /* Text color for dropdown links */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: contents;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show the dropdown on hover */
+}
+.dropdown-content {
+  /* ... other styles */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  /* ... other styles */
+  opacity: 1; 
+}
+
+/* Dropdown styles */
+.portfolio .dropdown { /* Notice the .portfolio before .dropdown */
+  position: relative; 
+}
+
+.portfolio .dropdown-content { /* Notice the .portfolio before .dropdown-content */
+  display: none; 
+  /* ...rest of the styles... */
+}
+
+.portfolio .dropdown:hover .dropdown-content { /* Notice the .portfolio before .dropdown:hover */
+  display: block; 
+}

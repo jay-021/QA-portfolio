@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Jaykumar's Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/app.min.css">
+    <link rel="stylesheet" href="styles/app.css"> 
+
     <!-- Add any additional CSS or stylesheets here -->
     <style>
         /* Add any additional or overriding styles here */
@@ -17,14 +20,21 @@
                 <a href="/">JR</a>
             </h1>
             <nav class="navigation">
-                <ul>
+              <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="index.html">About</a></li>
-                  <li><a href="index.html">Contact</a></li>
-
-                </ul>
-            </nav>
+                  <li class="dropdown">
+                      <a href="portfolio.html">Portfolio</a>
+                      <ul class="dropdown-content">
+                          <li><a href="manual-testing.html">Manual Testing</a></li>
+                          <li><a href="automation-testing.html">Automation Testing</a></li>
+                          <li><a href="api-testing.html">API Testing</a></li> 
+                      </ul>
+                  </li>
+                  <li><a href="index.html#about">About</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+              </ul>
+          </nav>
+          
             <div id="navigation-button">
                 <i class="bi bi-list"></i>
             </div>
@@ -36,7 +46,7 @@
             <div class="container">
                 <div class="section__header section__header--center">
                     <h2 class="section__title">Portfolio</h2>
-                    <p class="section__subtitle">Check out my projects</p>
+                    <p class="section__subtitle">Check out my work on QA & Automation</p>
                 </div>
                 <div class="portfolio">
                     <div class="portfolio__box">
@@ -45,8 +55,8 @@
                         </div>
                         <div class="portfolio__info">
                             <h3 class="portfolio__title">Manual Testing</h3>
-                            <p class="portfolio__content">Description of Manual Testing project.</p>
-                            <a class="portfolio__link" href="manual-testing/index.html">View Project <i class="bi bi-arrow-right"></i></a>
+                            <p class="portfolio__content">Manual testing involves manually executing test cases without using automation tools. It is crucial for identifying usability issues and ensuring the software meets user requirements.</p>
+                            <a class="portfolio__link" href="manual-testing.html">My Work <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -56,8 +66,8 @@
                         </div>
                         <div class="portfolio__info">
                             <h3 class="portfolio__title">Automation Testing</h3>
-                            <p class="portfolio__content">Description of Automation Testing project.</p>
-                            <a class="portfolio__link" href="automation-testing/index.html">View Project <i class="bi bi-arrow-right"></i></a>
+                            <p class="portfolio__content">Automation testing involves using specialized tools and scripts to automatically execute test cases. It ensures consistent and efficient validation of software functionality and performance.</p>
+                            <a class="portfolio__link" href="automation-testing.html">My Work <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -67,8 +77,8 @@
                         </div>
                         <div class="portfolio__info">
                             <h3 class="portfolio__title">API Testing</h3>
-                            <p class="portfolio__content">Description of API Testing project.</p>
-                            <a class="portfolio__link" href="api-testing/index.html">View Project <i class="bi bi-arrow-right"></i></a>
+                            <p class="portfolio__content">API testing involves verifying the functionality, reliability, performance, and security of application programming interfaces (APIs). It ensures that APIs return the expected responses and handle requests correctly.</p>
+                            <a class="portfolio__link" href="api-testing.html">My Work <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

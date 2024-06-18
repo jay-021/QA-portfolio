@@ -779,3 +779,14 @@ img {
 .portfolio .dropdown:hover .dropdown-content { /* Notice the .portfolio before .dropdown:hover */
   display: block; 
 }
+/* ... your other styles ... */
+
+/* existing styles ... */
+/* existing styles ... */
+
+.header .navigation ul li a.btn { /* Target anchor tags with btn class within navigation list items */
+  display: inline-flex; /* Allow the button to display as a flex item */
+  align-items: center;  /* Vertically center the content of the button */
+  padding: 0.8rem 2.5rem;
+  padding-top: 1rem;
+}

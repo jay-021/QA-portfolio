@@ -1,0 +1,95 @@
+{
+  "id": "e88dab2d-def3-4736-a903-ec66a8193d39",
+  "version": "2.0",
+  "name": "Telesoftas-Portfolio",
+  "url": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+  "tests": [{
+    "id": "0ff9311c-ee1d-45c6-a8be-ace6cf9da031",
+    "name": "Home Page",
+    "commands": [{
+      "id": "bf92849c-918b-42bb-a4cb-ddaa90e1fb18",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "151328d4-36da-4323-a7f0-e0e8d59fffbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192da419-6b54-47de-b838-a200b1c980bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.navigation > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37439696-e271-496d-bf6b-78db62d1b635",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7c694b60-48fa-4e1f-92f5-8de4ad4a2f17",
+    "name": "Portfolio Page",
+    "commands": [{
+      "id": "0012099c-2dbc-4f99-aaa7-d041fd12b5e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aa6452f-b5a7-48c6-8ab7-9dd4e959448b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc42e402-be23-40c0-b8d5-22bc9ab59ac1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0a8b23-5b18-467d-916e-f0acd21f2377",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f4c0e13-e65c-484f-be9a-b298a984a1b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

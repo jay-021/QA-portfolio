@@ -1,0 +1,560 @@
+{
+  "id": "e88dab2d-def3-4736-a903-ec66a8193d39",
+  "version": "2.0",
+  "name": "Telesoftas-Portfolio",
+  "url": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+  "tests": [{
+    "id": "0ff9311c-ee1d-45c6-a8be-ace6cf9da031",
+    "name": "Home Page",
+    "commands": [{
+      "id": "bf92849c-918b-42bb-a4cb-ddaa90e1fb18",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "151328d4-36da-4323-a7f0-e0e8d59fffbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192da419-6b54-47de-b838-a200b1c980bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.navigation > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37439696-e271-496d-bf6b-78db62d1b635",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7c694b60-48fa-4e1f-92f5-8de4ad4a2f17",
+    "name": "Portfolio Page",
+    "commands": [{
+      "id": "0012099c-2dbc-4f99-aaa7-d041fd12b5e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aa6452f-b5a7-48c6-8ab7-9dd4e959448b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc42e402-be23-40c0-b8d5-22bc9ab59ac1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0a8b23-5b18-467d-916e-f0acd21f2377",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a16a68ff-d091-4cd9-9c22-1682c8383c70",
+    "name": "Manual Testing Page",
+    "commands": [{
+      "id": "c57cab4f-748b-4722-82e6-69217953e981",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a94935d-1262-456d-97e7-3aec1ff7eaf0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3761a945-b1f2-47bd-9da6-d0e5e230a4a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8492393d-c47e-4a50-a55f-c82782e8c767",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Work",
+      "targets": [
+        ["linkText=My Work", "linkText"],
+        ["css=.portfolio__box:nth-child(1) .portfolio__link", "css:finder"],
+        ["xpath=//a[contains(text(),'My Work')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'manual-testing.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4938b6cf-f0b4-41ee-a944-0516849c115e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.testing-box:nth-child(10)",
+      "targets": [
+        ["css=.testing-box:nth-child(10)", "css:finder"],
+        ["xpath=//div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "005c15d7-814b-4110-bd11-211b964e9fa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.testing-box:nth-child(10) li:nth-child(2)",
+      "targets": [
+        ["css=.testing-box:nth-child(10) li:nth-child(2)", "css:finder"],
+        ["xpath=//div[9]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be43c2a-8877-4c57-b05f-42ec191843bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Results of GTmetrix",
+      "targets": [
+        ["linkText=Results of GTmetrix", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Results of GTmetrix')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://gtmetrix.com/reports/jay-021.github.io/xobep2kp/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Results of GTmetrix')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4c76f6-7f9e-4b61-9d82-29db44940961",
+      "comment": "",
+      "command": "click",
+      "target": "css=article:nth-child(2)",
+      "targets": [
+        ["css=article:nth-child(2)", "css:finder"],
+        ["xpath=//article", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "260e526a-46b8-4393-8fd7-e9b568ec34b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-details",
+      "targets": [
+        ["css=.report-details", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4439e292-0c33-4eb2-a78c-87dd9a481c90",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "039e7b65-9705-4627-bbb6-7d1681d2648a",
+    "name": "Automation Testing Page",
+    "commands": [{
+      "id": "d500d6dc-cb18-4844-9137-06ddf940a8ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4038864-3831-430f-a340-f6f1564b98e9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e19e1ccb-3524-4a7c-b61a-12febee6f7ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f625fc9-78b1-4aa9-8198-0298311864e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(2)",
+      "targets": [
+        ["css=.portfolio__box:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eaee916-5cf7-4256-b510-5b3d73a3fa83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(2) > .portfolio__info",
+      "targets": [
+        ["css=.portfolio__box:nth-child(2) > .portfolio__info", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a38dff-bf1f-4376-8105-520de11b853b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(2) .portfolio__link",
+      "targets": [
+        ["css=.portfolio__box:nth-child(2) .portfolio__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'My Work')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'automation-testing.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a024b82-4a4a-4ee5-94d9-2c3c37fd6369",
+      "comment": "",
+      "command": "click",
+      "target": "css=.testing-box:nth-child(5) > .portfolio__link",
+      "targets": [
+        ["css=.testing-box:nth-child(5) > .portfolio__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Selenium WebDriver')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.selenium.dev/')])[3]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1353",
+      "windowTimeout": 2000
+    }, {
+      "id": "f86d348f-7954-4a8d-9fe5-32ce4ee3d0c9",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2331c95b-5e8b-478e-8568-78243bfe59a3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1353}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f89f05dc-66b7-41ad-bb3e-8aba44dff406",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90076cdb-7440-486a-a885-9e2489a7fe41",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db11a8d3-2239-4358-a15b-a6b139c984ae",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fd9ac1ae-f785-4241-be08-0423dec90f33",
+    "name": "API Testing Page",
+    "commands": [{
+      "id": "bd0b7c67-659d-4714-b15a-caa009e49f36",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e9b656f-763d-4c3b-bb54-edec4c59b493",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b554eb10-68da-446e-b227-c91912758b7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90c50804-d1cb-41b3-a857-f2a31df62ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(3)",
+      "targets": [
+        ["css=.portfolio__box:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c04a88d9-b239-4411-a24d-ae1e43c10b8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(3) > .portfolio__info",
+      "targets": [
+        ["css=.portfolio__box:nth-child(3) > .portfolio__info", "css:finder"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2eab15-90bc-4316-8666-986801b69ac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolio__box:nth-child(3) .portfolio__link",
+      "targets": [
+        ["css=.portfolio__box:nth-child(3) .portfolio__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'My Work')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'api-testing.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a73728-d8b3-4f0e-957c-6fae42fa42e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Postman",
+      "targets": [
+        ["linkText=Postman", "linkText"],
+        ["css=.testing-box:nth-child(3) > .portfolio__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Postman')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.postman.com/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Postman')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9638",
+      "windowTimeout": 2000
+    }, {
+      "id": "fbd65af2-11e7-4255-ad58-d0d74457c748",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f343a937-c712-47da-a514-77becd31fd1e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9638}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ae9eec4-f08f-49ba-a90d-30093b65755f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b2b3dfc-e629-469b-8dfd-a94853c039bf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84f88746-a1ce-4787-92ea-bda5ea37f62d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "29b82f35-def4-4a03-a773-6debe13dd3a6",
+    "name": "Policy Page Check",
+    "commands": [{
+      "id": "f4d5e2dd-2d52-4649-a78d-dd43d2b1d6b3",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fffe24d-6232-413b-9ca6-8f32c4650355",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d97982-fabb-411c-b3e9-b09ca45fe74d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer__copyright > p",
+      "targets": [
+        ["css=.footer__copyright > p", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2024 All rights reserved to Jaykumar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abad79f5-5202-4b93-9fe1-7d6f7111a196",
+      "comment": "",
+      "command": "click",
+      "target": "id=contact",
+      "targets": [
+        ["id=contact", "id"],
+        ["css=#contact", "css:finder"],
+        ["xpath=//section[@id='contact']", "xpath:attributes"],
+        ["xpath=//section[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a029fb72-842d-4d15-b27a-26ddf90d3c3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jaykumar",
+      "targets": [
+        ["linkText=Jaykumar", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jaykumar')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'policy.html')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jaykumar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4051c0d9-ee9d-4f56-8ade-c3810164f461",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section > .container",
+      "targets": [
+        ["css=.section > .container", "css:finder"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "979bc39c-afe3-498c-a89a-dd2024473045",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portfolioSingle__title",
+      "targets": [
+        ["css=.portfolioSingle__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Website Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f859c8bb-cb9b-4221-8f71-9b45706f4c63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gemini",
+      "targets": [
+        ["linkText=Gemini", "linkText"],
+        ["css=ul:nth-child(3) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gemini')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://gemini.google.com/')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gemini')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4910",
+      "windowTimeout": 2000
+    }, {
+      "id": "12f11577-f159-4cee-a705-051639b9a193",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7394d4c-76d6-44dd-8dda-7751fcc8a0d6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4910}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3032827-5d90-4727-b6cc-5fb3bc82d917",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0358b8b-2106-4195-8b40-b2c0c8720311",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3f9ef90-07bc-490e-901d-a8569f9fd960",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f4c0e13-e65c-484f-be9a-b298a984a1b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://jay-021.github.io/telesoftas-portfolio/index.html"],
+  "plugins": []
+}

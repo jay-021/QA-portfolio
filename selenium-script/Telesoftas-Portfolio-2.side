@@ -1,0 +1,200 @@
+{
+  "id": "e88dab2d-def3-4736-a903-ec66a8193d39",
+  "version": "2.0",
+  "name": "Telesoftas-Portfolio",
+  "url": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+  "tests": [{
+    "id": "0ff9311c-ee1d-45c6-a8be-ace6cf9da031",
+    "name": "Home Page",
+    "commands": [{
+      "id": "bf92849c-918b-42bb-a4cb-ddaa90e1fb18",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "151328d4-36da-4323-a7f0-e0e8d59fffbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192da419-6b54-47de-b838-a200b1c980bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.navigation > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37439696-e271-496d-bf6b-78db62d1b635",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7c694b60-48fa-4e1f-92f5-8de4ad4a2f17",
+    "name": "Portfolio Page",
+    "commands": [{
+      "id": "0012099c-2dbc-4f99-aaa7-d041fd12b5e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aa6452f-b5a7-48c6-8ab7-9dd4e959448b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc42e402-be23-40c0-b8d5-22bc9ab59ac1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0a8b23-5b18-467d-916e-f0acd21f2377",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d6c21403-46ea-4efb-8fda-3996999a77ef",
+    "name": "Manual Testing Page",
+    "commands": [{
+      "id": "e1dac1bd-5cef-46c0-8a98-403033adeaea",
+      "comment": "",
+      "command": "open",
+      "target": "https://jay-021.github.io/telesoftas-portfolio/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d9723d4-1dea-4430-88f2-9a083aac1fa1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "590bcb8b-8461-4d4a-8007-ad99ca70f258",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portfolio",
+      "targets": [
+        ["linkText=Portfolio", "linkText"],
+        ["css=.dropdown > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portfolio')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'portfolio.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41668038-31ba-4cd1-a8da-113a294f3a74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Work",
+      "targets": [
+        ["linkText=My Work", "linkText"],
+        ["css=.portfolio__box:nth-child(1) .portfolio__link", "css:finder"],
+        ["xpath=//a[contains(text(),'My Work')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'manual-testing.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95c68a5-7f53-497b-9409-d465abec1e0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Results of GTmetrix",
+      "targets": [
+        ["linkText=Results of GTmetrix", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Results of GTmetrix')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://gtmetrix.com/reports/jay-021.github.io/xobep2kp/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Results of GTmetrix')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win233",
+      "windowTimeout": 2000
+    }, {
+      "id": "d27de9f0-1eb5-40bd-8884-e9b1896c34ee",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea89fe16-7ca8-46ef-8c64-951229f1f90c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win233}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c88d7e7-29c3-48d4-b0a6-89fc7267b59c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1025)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "284e30f4-d670-4211-85a3-aa23b0c045b8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d06b31a6-3ffb-4b0a-84a4-f81d2ed7dc39",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0788b513-0e24-4aab-afc3-81f36433117b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f4c0e13-e65c-484f-be9a-b298a984a1b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
